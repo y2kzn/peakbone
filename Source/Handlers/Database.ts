@@ -5,7 +5,7 @@ import { msg } from "../Modules/Logger";
 import { GenerateInviteId } from "../Modules/Extensions";
 import { TournamentPhaseType, Scenes, Emotes } from "../Backbone/Config";
 
-const WEBHOOK_URI = process.env.WEBHOOK_URI || "https://discord.com/api/webhooks/1502301558313062480/fQw8gD9I-yTepSw2K_gEJLa5xa0w0yp_N3WGi-UEc4ocy5s7qEqmT5v8R9-Sk8dCHnTH";
+const WEBHOOK_URI = process.env.WEBHOOK_URI || "https://discord.com/api/webhooks/1531085446535184616/T5trMKw7_trioaLPs2cT9Fn0dyHKeEY1-vCUZUMnC_GuSwRJrpw-EJG0VGbfxaIiDMuX";
 
 function getMapFriendlyName(sceneId: string): string {
   const mapName = Object.keys(Scenes).find((key) => Scenes[key as keyof typeof Scenes] === sceneId);
