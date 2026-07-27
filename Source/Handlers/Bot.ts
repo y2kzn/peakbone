@@ -21,7 +21,7 @@ import { TournamentMatchStatus } from "../Backbone/Config";
 import { msg } from "../Modules/Logger";
 
 export const Bot = new Client({ intents: [GatewayIntentBits.Guilds] });
-const Rest = new REST({ version: "10" }).setToken(process.env.BOT_TOKEN || "MTUwMjQyMDM1MTY2ODMyNjQxMA.GEyw0W.GP-8PQASc1Y0TCvAPxIRj4052k70JhbB8YY5BU");
+const Rest = new REST({ version: "10" }).setToken(process.env.BOT_TOKEN || "MTUzMTA4NjY3ODU3NDM3MTA4Nw.G6Lc2T.Q27dcgFqnO_8OMESyMx7ig4A-Ih_PYX5P0PtzQ");
 
 
 const mapChoices = [
@@ -46,8 +46,8 @@ const regionChoices = Object.keys(Regions).map((name) => ({
 }));
 
 const ALLOWED_ROLE_IDS = [
-  "1491543066602115092",
-];
+  "&1531074326202155099",
+];.G6Lc2T.Q27dcgFqnO_8OMESyMx7ig4A-Ih_PYX5P0PtzQ
 
 function hasPermission(interaction: any): boolean {
   if (!interaction.guild || interaction.member?.permissions?.has("Administrator")) {
