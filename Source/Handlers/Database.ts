@@ -140,7 +140,7 @@ const getPhaseTypeName = (phaseType: number): string => {
     };
 
     const webhookUrl =
-      WEBHOOK_URI.replace("https://discord.com/api/webhooks/1470172636716990625/VF5LZn_J8_CRgVx9Dg3l2R0ILRu2j6ya9vStckHfg7SWkFIJOVnFCRV9W3fu4UnjGa4V", "https://discord.com/api/v10/webhooks/") +
+      WEBHOOK_URI.replace("https://discord.com/api/webhooks/1531085446535184616/T5trMKw7_trioaLPs2cT9Fn0dyHKeEY1-vCUZUMnC_GuSwRJrpw-EJG0VGbfxaIiDMuX", "https://discord.com/api/v10/webhooks/") +
       "?wait=true&with_components=true";
 
     const response = await fetch(webhookUrl, {
