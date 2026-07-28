@@ -1,3 +1,5 @@
-// Source/index.ts
-import "dotenv/config"; // Carrega as variáveis imediatamente
-import "./Handlers/Server"; // Se estiver usando CommonJS, remova o .js
+/import "dotenv/config";
+import Server from "./Handlers/Server.js";
+
+// Exemplo: se o Server for uma função que inicia o servidor
+Server();
